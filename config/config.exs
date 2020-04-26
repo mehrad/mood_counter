@@ -13,7 +13,7 @@ config :demo,
 # Configures the endpoint
 config :demo, DemoWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "Qbh982xIn0AAVoyB5+0q738iA0ZHVFZLQEKQgUnKaic2SzNizW63WgYiiNGONWuq",
+  secret_key_base: "Qbh882xIn0AAVoyB5+0q738iA0ZHVFZLQEKQgUnKaic2SzNizW63WgYiiNGONWuq",
   render_errors: [view: DemoWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Demo.PubSub,
   live_view: [signing_salt: "X70MXg44"]
